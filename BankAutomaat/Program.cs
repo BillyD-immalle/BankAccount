@@ -11,7 +11,10 @@ namespace BankAutomaat
         public static int geld = 0;
         static void PrintMenu()
         {
-            Console.WriteLine("1. Stort geld"); Console.WriteLine("2. Geld afhalen"); Console.WriteLine("3. Saldo");
+            Console.WriteLine("1. Stort geld");
+            Console.WriteLine("2. Geld afhalen");
+            Console.WriteLine("3. Saldo");
+            Console.WriteLine("0. Exit");
         }
         static void Main(string[] args)
         {

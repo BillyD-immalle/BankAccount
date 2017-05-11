@@ -32,7 +32,7 @@ namespace BankAutomaat
             }
             else
             {
-                Console.WriteLine("Rekening ontoereikend");
+                Console.WriteLine("Saldo ontoereikend");
             }
             Console.WriteLine("Wat wilt u doen?");
         }
