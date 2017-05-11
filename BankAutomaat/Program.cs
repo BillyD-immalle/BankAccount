@@ -25,9 +25,9 @@ namespace BankAutomaat
                 switch (keuze)
                 {
                     case 0: Console.WriteLine("Doei"); finished = true; break;
-                    case 1: rekening.Stort(); break;
+                    case 1: rekening.Stort();  break;
                     case 2: rekening.Afhaal(); break;
-                    case 3: rekening.Saldo(); break;
+                    case 3: rekening.Saldo();  break;
                 }
             }
         }
